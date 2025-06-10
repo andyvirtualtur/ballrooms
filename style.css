@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+.hero {
+  background: #2563EB;
+  color: #fff;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.cta-buttons {
+  margin-top: 1.5rem;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+  transition: background 0.3s ease;
+}
+
+.btn-primary {
+  background: #10B981;
+  color: #fff;
+  margin-right: 0.5rem;
+}
+
+.btn-primary:hover {
+  background: #0e9f6e;
+}
+
+.btn-accent {
+  background: #F59E0B;
+  color: #fff;
+}
+
+.btn-accent:hover {
+  background: #d97706;
+}
+
+section {
+  padding: 4rem 0;
+}
+
+.benefits-list,
+.pain-list,
+.stats-list {
+  list-style: none;
+}
+
+.benefits-list li,
+.pain-list li,
+.stats-list li {
+  margin-bottom: 0.5rem;
+}
+
+.demo .iframe-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.demo iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.process-list {
+  margin-left: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.final-text {
+  font-weight: 600;
+}
+
+.footer {
+  background: #f7f7f7;
+  padding: 2rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.footer a {
+  color: #2563EB;
+}
+
+.social-links a {
+  margin: 0 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    padding: 6rem 0;
+  }
+
+  section {
+    padding: 6rem 0;
+  }
+}
