@@ -10,3 +10,12 @@ for (const link of links) {
     }
   });
 }
+
+const feedbackForm = document.getElementById('feedback-form');
+if (feedbackForm) {
+  feedbackForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+    alert('Спасибо! Мы свяжемся с вами.');
+    feedbackForm.reset();
+  });
+}
